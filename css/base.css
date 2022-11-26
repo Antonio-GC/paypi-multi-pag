@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --dark-pink: #ba4270;
+    --san-juan-blue: #36536b;
+    --light-san-juan-blue: #6c8294;
+    --link-water-white: #fbfcfe;
+    --mirage-blue: #1b262f;
+    --charm-pink: #da6d97;
+}
+
+body {
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 16px;
+}
+
+button {
+    border: none;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+input {
+    border: none;
+    outline: none;
+}
