@@ -59,3 +59,12 @@ input {
 
 }
 
+/* button */
+
+.btn__nav--dark-pink {
+    background-color: var(--dark-pink);
+    color: var(--light-san-juan);
+    padding: 15px 30px 15px 30px ;
+    border-radius: 30px;
+    font-weight: bold;
+}
