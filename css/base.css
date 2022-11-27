@@ -8,6 +8,7 @@
     --san-juan-blue: #36536b;
     --light-san-juan-blue: #6c8294;
     --link-water-white: #fbfcfe;
+    --light-san-juan: #EDF3F8;
     --mirage-blue: #1b262f;
     --charm-pink: #da6d97;
 }
@@ -36,6 +37,25 @@ input {
 }
 
 /* nav-bar */
+.nav__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.nav__link {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 30px;
+}
 
+.nav__logo {
+    margin-right: 100px;
+}
+
+.link__text--white {
+   color: var(--light-san-juan-blue);
+
+}
 
