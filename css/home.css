@@ -1,5 +1,7 @@
 .header__content {
-  background-color: var(--link-water-white);
+  background-color: var( --light-san-juan);
+  padding: 30px 150px 30px 150px;
+  
 }
 
 .questions__title {
@@ -41,4 +43,14 @@
 
 .text_margin {
     margin-left: 15px;
+}
+
+
+
+.container {
+   
+}
+.info {
+    background-color: var(--mirage-blue);
+    padding: 30px 150px 30px 150px;
 }
