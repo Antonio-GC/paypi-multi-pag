@@ -11,6 +11,7 @@
     --light-san-juan: #EDF3F8;
     --mirage-blue: #1b262f;
     --charm-pink: #da6d97;
+   
 }
 
 body {
@@ -67,4 +68,20 @@ input {
     padding: 15px 30px 15px 30px ;
     border-radius: 30px;
     font-weight: bold;
+}
+
+
+/* Texto */
+
+.text__san-juan--light-blue {
+    font-size: 16px;
+    color: var(--light-san-juan-blue);
+    font-weight: lighter;
+}
+
+.text__san-juan--blue {
+    font-size: 16px;
+    color: var(--san-juan-blue);
+    font-weight: bold;
+    
 }

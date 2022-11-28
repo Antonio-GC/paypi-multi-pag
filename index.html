@@ -3,37 +3,71 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Public+Sans:ital,wght@0,100;0,300;0,500;1,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/base.css">
-    <link rel="stylesheet" href="/css/home.css">
-    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Public+Sans:ital,wght@0,100;0,300;0,500;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/base.css" />
+    <link rel="stylesheet" href="/css/home.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
 
     <title>Frontend Mentor | PayAPI Website Challenge</title>
   </head>
 
   <body>
+    <header class="header__content">
+      <nav class="nav__content">
+        <div class="nav__link">
+          <img
+            src="/assets/shared/desktop/logo.svg"
+            alt="logo"
+            class="nav__logo"
+          />
+          <a href="pricing.html" class="link__text--white">Pricing</a>
+          <a href="about.html" class="link__text--white">About</a>
+          <a href="contact.html" class="link__text--white">Contact</a>
+        </div>
+
+        <button class="btn__nav--dark-pink">Schedule a Demo</button>
+      </nav>
+
+      <div class="header__section">
+        <div class="header__questions">
+          <h1 class="questions__title">Start building with our APIs for absolutely free.</h1>
+          <div class="questions__content">
+            <input class="questions__email"
+            type="email"
+            name=""
+            id=""
+            placeholder="Enter email address "
+          />
+          <button class="btn__nav--dark-pink btn__postion">Schedule a Demo</button>
+          </div>
+          
+          <p class="text__san-juan--light-blue text_margin">Have any questions? <span class="text__san-juan--blue">Contact Us</span></p>
+          
+        </div>
+        <div class="header__illustration">
+        
+            <img
+              src="/assets/home/desktop/illustration-phone-mockup.svg"
+              alt=""
+            />
+        </div>
+      </div>
+    </header>
+
+    <!-- 
     
-<header class="header__content">
-  <nav class="nav__content">
-    <div class="nav__link">
-      <img src="/assets/shared/desktop/logo.svg" alt="logo" class="nav__logo">
-      <a href="pricing.html" class="link__text--white">Pricing</a>
-      <a href="about.html" class="link__text--white">About</a>
-      <a href="contact.html" class="link__text--white">Contact</a>
-    </div>
    
-      <button class="btn__nav--dark-pink">Schedule a Demo</button>
-    
-  </nav>
-</header>
-
-
-    <!-- Start building with our APIs for absolutely free.
-    Enter email address 
-    Schedule a Demo
-    Have any questions? Contact Us
+     
 
     Who we work with
     Today, millions of people around the world have successfully connected 
@@ -71,5 +105,4 @@
     About
     Contact -->
   </body>
-
 </html>

@@ -1,7 +1,44 @@
-
-.header__content{
-    background-color: var(--link-water-white);
-
+.header__content {
+  background-color: var(--link-water-white);
 }
 
+.questions__title {
+  color: var(--san-juan-blue);
+  font-weight: bold;
+  font-family: "DM Serif Display";
+  font-size: 72px;
+  margin: 100px 0 50px 0;
+}
 
+.questions__email {
+    padding: 15px 160px 15px 25px;
+    background-color: white;
+    color: var( --light-san-juan-blue);
+    font-weight: bold;
+    box-shadow: 1px 13px 5px -3px rgba(0,0,0,0.10);
+    border-radius: 30px;
+}
+
+.questions__content {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.btn__postion {
+    position: absolute;
+    right: 150px;
+}
+
+.header__section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.header__illustration {
+  display: flex;
+  justify-content: center;
+}
+
+.text_margin {
+    margin-left: 15px;
+}
