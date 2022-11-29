@@ -104,10 +104,29 @@ background-color:var(--light-san-juan) ;
 .financing {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+margin-bottom: 70px;
 }
 
 .financing__imagen {
   display: flex;
   justify-content: center;
  margin-bottom: 30px;
+}
+
+.question {
+  display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.question__form {
+  position: relative;
+}
+
+.title__question{
+  color: var(--san-juan-blue);
+  font-weight: bold;
+  font-family: "DM Serif Display";
+  font-size: 50px;
+  
 }
