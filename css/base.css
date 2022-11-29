@@ -70,6 +70,32 @@ input {
     font-weight: bold;
 }
 
+.btn__transparent {
+    background-color:transparent;
+    color: var(--light-san-juan);
+    padding: 15px 30px 15px 30px ;
+    border-radius: 30px;
+    font-weight: bold;
+    border: 1px var(--light-san-juan) solid;
+}
+
+
+/* Title */
+
+.title__text--san-juan {
+    color: var(--san-juan-blue);
+    font-weight: bold;
+    font-family: "DM Serif Display";
+    font-size: 72px;
+}
+
+.title__text--white {
+    color: var(--light-san-juan);
+    font-weight: lighter;
+    font-family: "DM Serif Display";
+    font-size: 46px;
+    margin-bottom: 20px;
+}
 
 /* Texto */
 
@@ -77,6 +103,8 @@ input {
     font-size: 16px;
     color: var(--light-san-juan-blue);
     font-weight: lighter;
+    line-height: 1.5rem;
+    margin-bottom: 30px;
 }
 
 .text__san-juan--blue {

@@ -53,4 +53,20 @@
 .info {
     background-color: var(--mirage-blue);
     padding: 30px 150px 30px 150px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.info__text {
+  text-align: justify;
+  
+}
+
+.info__illustration {
+display: grid;
+grid-template-columns: repeat(3 , 1fr);
+grid-template-rows: repeat(2, 1fr);
+align-self: center;
+gap: 50px;
 }
