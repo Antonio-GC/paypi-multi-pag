@@ -100,10 +100,20 @@ input {
   margin-bottom: 20px;
 }
 
+.title__text {
+    color: var(--san-juan-blue);
+    font-weight: bold;
+    font-family: "Public Sans";
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+
+
 /* Texto */
 
 .text__san-juan--white {
-  font-size: 16px;
   color: var(--light-san-juan);
   font-weight: lighter;
   line-height: 1.5rem;
@@ -111,7 +121,6 @@ input {
 }
 
 .text__san-juan--light-blue {
-  font-size: 16px;
   color: var(--san-juan-blue);
   font-weight: lighter;
   line-height: 1.5rem;
@@ -119,7 +128,16 @@ input {
 }
 
 .text__san-juan--blue {
-  font-size: 16px;
   color: var(--san-juan-blue);
   font-weight: bold;
 }
+
+
+.text__blue {
+    color: var(--san-juan-blue);
+    font-weight: lighter;
+    line-height: 1.5rem;
+    margin-bottom: 30px;
+    font-size: 12px;
+    text-align: center;
+  }
