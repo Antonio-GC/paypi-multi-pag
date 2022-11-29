@@ -60,6 +60,7 @@
 
 .info__text {
   text-align: justify;
+  padding-right: 100px;
   
 }
 
@@ -69,4 +70,24 @@ grid-template-columns: repeat(3 , 1fr);
 grid-template-rows: repeat(2, 1fr);
 align-self: center;
 gap: 50px;
+}
+
+.section {
+ 
+background-color:var(--light-san-juan) ;
+
+}
+
+.section__implement {
+  padding:  30px 150px 30px 150px;
+}
+
+.section__content{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+}
+
+.section__text {
+  padding: 80px 0px 0px 40px;
 }
