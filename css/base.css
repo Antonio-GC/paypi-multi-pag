@@ -11,6 +11,7 @@
   --light-san-juan: #edf3f8;
   --mirage-blue: #1b262f;
   --charm-pink: #da6d97;
+  --gray: #8595a5;
 }
 
 body {
@@ -36,7 +37,10 @@ input {
 
 ul {
     list-style-image:url(/assets/shared/desktop/Path\ 3.svg) ;
-}
+padding-left: 20px;
+padding-bottom: 15px;
+border-bottom: .1px solid var(--gray);
+  }
 
 li {
     padding-left: 2em;
@@ -139,8 +143,8 @@ li {
 
   .title__text--violet {
     color: var(--dark-pink);
-    font-weight: lighter;
-    font-family: "Public Sans";
+    font-weight: bold;
+    font-family: "DM Serif Display";
     font-size: 25px;
     margin-bottom: 20px;
     

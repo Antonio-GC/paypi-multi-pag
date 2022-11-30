@@ -17,13 +17,10 @@
 }
 
 
-
-
-
-
 .list__check {
-    color: var(--san-juan-blue);
+    color: var( --san-juan-blue);
     margin-bottom: 10px;
+    font-weight: bold;
 }
 
 .list__none {
@@ -32,3 +29,14 @@
     margin-bottom: 10px;
     list-style: none;
 }
+
+.number--plan {
+    color: var(--san-juan-blue);
+    font-weight: bold;
+    font-family: "DM Serif Display";
+    font-size: 35px;
+    border-bottom: 0.1px solid var(--gray);
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    
+  }
