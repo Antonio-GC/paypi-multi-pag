@@ -1,0 +1,32 @@
+.plan__content {
+    background-color: var(--light-san-juan);
+}
+
+.plan__section {
+    padding: 30px 150px 30px 150px;
+}
+
+.plan__packages {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+.list__check {
+    color: var(--san-juan-blue);
+    margin-bottom: 10px;
+}
+
+.list__none {
+    color: var(--light-san-juan-blue);
+    font-weight: lighter;
+    margin-bottom: 10px;
+    list-style: none;
+}
