@@ -150,6 +150,16 @@ li {
     
   }
 
+  .title__text--about {
+    color: var(--san-juan-blue);
+    font-weight: bold;
+    font-family: "DM Serif Display";
+    font-size: 50px;
+    margin-left: 100px;
+    margin-bottom: 60px;
+    
+  }
+
   .title__text--violet {
     color: var(--dark-pink);
     font-weight: bold;
@@ -199,6 +209,17 @@ li {
    
   }
   
+  /*  */
+
+  .section {
+ 
+    background-color:var(--light-san-juan) ;
+    
+    }
+    
+    .section__implement {
+      padding:  30px 150px 30px 150px;
+    }
 
 /* READY FORM */
   
@@ -258,3 +279,4 @@ li {
 .footer__imagen {
   margin: 0 20px 0 20px
 }
+
