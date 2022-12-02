@@ -1,3 +1,47 @@
 .about__content {
-    display: flex;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.title__text--content {
+  color: var(--san-juan-blue);
+  font-weight: bold;
+  font-family: "Public Sans";
+  font-size: 30px;
+  padding: 0 0 60px 91px;
+}
+
+.text__blue--content {
+  color: var(--light-san-juan-blue);
+  font-weight: lighter;
+  line-height: 1.5rem;
+  padding: 0 0 30px 45px;
+  font-size: 14px;
+}
+
+.about__analysis {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 30px;
+  margin-bottom: 100px;
+}
+
+.analysis_content {
+  padding: 15px 0 15px 0;
+  border-top: 0.8px solid var(--gray);
+  border-bottom: 0.8px solid var(--gray);
+}
+
+.text__analysis {
+  color: var(--light-san-juan-blue);
+  font-weight: lighter;
+  margin-bottom: 10px;
+}
+
+.number__analysis {
+  color: var(--dark-pink);
+  font-weight: bold;
+  font-family: "DM Serif Display";
+  font-size: 35px;
 }
