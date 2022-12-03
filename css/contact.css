@@ -1,0 +1,38 @@
+.title__text--contact {
+    color: var(--san-juan-blue);
+    font-weight: bold;
+    font-family: "DM Serif Display";
+    font-size: 50px;
+    margin-bottom: 60px;
+    
+  }
+
+.contact__contect {
+    display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-template-rows: 1fr;
+   column-gap: 70px;
+ 
+}
+
+
+
+.form__content {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+}
+
+  .form__contact {
+   
+background-color: var(--light-san-juan);
+color: var(--light-san-juan-blue);
+border-bottom: .8px solid var(--gray);
+padding: 20px 0 30px 0;
+
+
+  }
+
+  .form__contac--checkbox {
+    display: inline;
+    background-color: var(--gray);
+  }
