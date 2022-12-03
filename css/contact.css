@@ -1,3 +1,7 @@
+
+/* Title -contact */
+
+
 .title__text--contact {
     color: var(--san-juan-blue);
     font-weight: bold;
@@ -6,6 +10,19 @@
     margin-bottom: 60px;
     
   }
+
+  .title__text--light {
+    color: var(--light-san-juan-blue);
+    font-family: "DM Serif Display";
+    font-size: 36px;
+    font-weight: normal;
+
+   
+    
+  }
+
+  
+/* contenido */
 
 .contact__contect {
     display: grid;
@@ -19,11 +36,11 @@
 
 .form__content {
     display: grid;
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 100px);
 }
 
   .form__contact {
-   
+   font-size: 20px;
 background-color: var(--light-san-juan);
 color: var(--light-san-juan-blue);
 border-bottom: .8px solid var(--gray);
@@ -31,8 +48,32 @@ padding: 20px 0 30px 0;
 
 
   }
+.form__contact--message {
+  font-size: 20px;
+background-color: var(--light-san-juan);
+color: var(--light-san-juan-blue);
+border-bottom: .8px solid var(--gray);
+padding: 20px 0 50px 0;
+}
 
   .form__contac--checkbox {
     display: inline;
     background-color: var(--gray);
   }
+
+
+.contact__info {
+  display: grid;
+  grid-template-columns: repeat(3 , 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  align-self: flex-start;
+  gap: 50px;
+
+}
+ 
+.contact__ilustration {
+  display: flex;
+  flex-direction: column;
+ justify-content: center;
+ row-gap: 50px;
+}
