@@ -11,7 +11,7 @@
   --light-san-juan: #edf3f8;
   --mirage-blue: #1b262f;
   --charm-pink: #da6d97;
-  --gray: #8595a5;
+  --gray: #bdbfc1;
 }
 
 body {
@@ -107,6 +107,17 @@ li {
   border: 1px var(--san-juan-blue) solid;
   margin-top: 30px;
 }
+
+.btn__transparent--contact{
+  background-color: transparent;
+  color: var(--san-juan-blue);
+  padding: 15px 50px 15px 50px;
+  border-radius: 30px;
+  font-weight: bold;
+  border: 1px var(--san-juan-blue) solid;
+  margin-top: 50px;
+}
+
 /* Title */
 
 .title__text--san-juan {
