@@ -45,3 +45,8 @@
   font-family: "DM Serif Display";
   font-size: 35px;
 }
+
+.about__imagen {
+  width: 100%;
+  margin-bottom: 50px;
+}
